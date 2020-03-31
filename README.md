@@ -1,6 +1,6 @@
 # ISA_BITS
 ##### 通过位域实现赋值和取值操作
-###### [在objc4-680文件中的objc-private.h源码中](https://opensource.apple.com/tarballs/objc4/)有关于ISA指针的内部实现是通过位域来实现bits的，我们也可以通过这种位域来实现Demon中Teacher里的赋值和取值的操作。
+###### [在objc4-680文件中的objc-private.h源码中](https://opensource.apple.com/tarballs/objc4/)有关于ISA指针的内部实现是通过位域来实现bits的，我们也可以通过这种位域来实现Demo中Teacher里的赋值和取值的操作。
     union isa_t 
     {
         isa_t() { }
